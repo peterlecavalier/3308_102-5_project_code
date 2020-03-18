@@ -1,3 +1,6 @@
 # 3308_102-5_project_code
 
-This is where our game code will be.
+Short Fuze
+
+Trello: https://trello.com/b/j0ISDXCU/short-fuze-development
+
