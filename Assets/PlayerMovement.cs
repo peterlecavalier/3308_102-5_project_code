@@ -29,14 +29,14 @@ public class PlayerMovement : MonoBehaviour
       Right or D = 1
 
       */
-      if (Input.GetButtonDown("Jump"))
+      if (Input.GetButtonDown("Jump"))//if jump button is pressed sets jump to true (makes player jump)
       {
         jump = true;
       }
       if (Input.GetButtonDown("Crouch"))
       {
         crouch = true;
-      } else if (Input.GetButtonUp("Crouch")){
+      } else if (Input.GetButtonUp("Crouch")){ // if crouch is no longer pressed stops crouching
         crouch = false;
       }
 
