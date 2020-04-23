@@ -1,0 +1,62 @@
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    </script>
+    <title>Short Fuze Scoreboard</title>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  	  <a class="navbar-brand" href="/">
+  		<img class="rounded-circle" src="../../bomb_icon.jpg" alt="Short Fuze Icon" width="30" height="30">
+  	  </a>
+  	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  		    <span class="navbar-toggler-icon"></span>
+  	  </button>
+  	  <div class="collapse navbar-collapse" id="navbarText">
+    		<ul class="navbar-nav mr-auto">
+    		  <li class="nav-item active">
+    			     <a class="nav-link" href="/about">About</a>
+    		  </li>
+    		</ul>
+  	  </div>
+  	</nav>
+  </head>
+  <body style="background-color:#d83e50">
+    <div class="container">
+      <h2>Scoreboard - Short Fuze</h2>
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Games Played</th>
+            <th>Most Coins Collected</th>
+            <th>Total Coins Collected</th>
+          </tr>
+        </thead>
+        <tbody id="scoreTableBody">
+          <% if (players) {
+    				var board_rows = '';
+            var player_count = 0;
+    				 players.forEach(function(item){
+              player_count++;
+    				 	board_rows += '<tr><td>' + player_count + '</td>';
+    				 	board_rows += '<td>' + item.username + '</td>';
+    				 	board_rows += '<td>' + item.games_played + '</td>';
+    				 	board_rows += '<td>' + item.most_coins + '</td>';
+              board_rows += '<td>' + item.total_coins + '</td></tr>';
+    				});%>
+          <%- board_rows %>
+    			<% } %>
+        </tbody>
+      </table>
+    </div>
+  </body>
