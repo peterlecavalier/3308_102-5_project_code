@@ -10,27 +10,93 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   cacheType: 6
-  lastUpdatedAtString: 2020-04-23T17:19:02.568-06:00
-  initializedAtString: 2020-04-23T17:19:02.568-06:00
+  lastUpdatedAtString: 2020-04-23T21:34:46.053-06:00
+  initializedAtString: 2020-04-23T21:15:58.996-06:00
   entries:
-  - path: Library\EditorInstance.json
-    fullPath: C:\Users\Connor Eamon\Documents\GitHub\3308_102-5_project_code\Library\EditorInstance.json
-    projectPath: Library\EditorInstance.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: C:\Users\Connor Eamon\Documents\GitHub\3308_102-5_project_code\Library\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    originalPath: 
+  - path: Assets/Scenes/SampleScene.unity
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Assets/Scenes/SampleScene.unity
+    projectPath: Assets/Scenes/SampleScene.unity
+    originalPath:
     indexStatus: 0
     workTreeStatus: 3
-  - path: Temp\UnityLockfile
-    fullPath: C:\Users\Connor Eamon\Documents\GitHub\3308_102-5_project_code\Temp\UnityLockfile
-    projectPath: Temp\UnityLockfile
-    originalPath: 
+  - path: Library/assetDatabase3
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath:
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath:
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/GridBrush/UnityEditor.GridBrush.asset
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/GridBrush/UnityEditor.GridBrush.asset
+    projectPath: Library/GridBrush/UnityEditor.GridBrush.asset
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/shadercompiler-UnityShaderCompiler1.log
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/Hierarchy/46b7a0-mainStage.json
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/StateCache/Hierarchy/46b7a0-mainStage.json
+    projectPath: Library/StateCache/Hierarchy/46b7a0-mainStage.json
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library/StateCache/SceneView/d69a67-mainStage.json
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Library/StateCache/SceneView/d69a67-mainStage.json
+    projectPath: Library/StateCache/SceneView/d69a67-mainStage.json
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/remyvancil/Documents/GitHub/3308_102-5_project_code/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath:
+    indexStatus: 0
+    workTreeStatus: 3
