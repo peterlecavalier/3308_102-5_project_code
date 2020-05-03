@@ -9790,7 +9790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21b4c987b9977e948b41bb90fd818e25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 10
+  timeRemaining: 30
   timerIsRunning: 0
   timeText: {fileID: 1415121660}
 --- !u!1 &1421131436

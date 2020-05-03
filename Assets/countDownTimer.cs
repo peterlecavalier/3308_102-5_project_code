@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class countDownTimer : MonoBehaviour
 {
     //timer variables
-    public float timeRemaining = 10;
+    public float timeRemaining = 30;
     public bool timerIsRunning = false;
     public Text timeText;
 
@@ -27,9 +28,11 @@ public class countDownTimer : MonoBehaviour
             }
             else
             {
-                timeText.text = "Time has run out!";
                 timeRemaining = 0;
                 timerIsRunning = false;
+                SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+                StartCoroutine(PushToDatabase.PostScores(Login.Username, CoinCollection.scoreValue));
+                Debug.Log("Pushing to database...");
             }
         }
     }
